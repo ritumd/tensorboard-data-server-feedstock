@@ -1,4 +1,4 @@
-{% set name = "tensorboard_data_server" %}
+{% set name = "tensorboard-data-server" %}
 {% set version = "0.6.1" %}
 
 package:
