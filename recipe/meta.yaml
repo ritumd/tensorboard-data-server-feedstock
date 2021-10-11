@@ -11,7 +11,7 @@ source:
 
 build:
   script: "python -m pip install tensorboard_data_server-{{ version }}*.whl --no-deps --ignore-installed -vv "
-  number: 1
+  number: 2
   noarch: python
 
 requirements:
@@ -19,7 +19,7 @@ requirements:
     - python
     - pip
   run:
-    - python
+    - python <3.10
 
 test:
   imports:
